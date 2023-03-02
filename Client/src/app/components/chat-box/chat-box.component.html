@@ -1,0 +1,45 @@
+<div id="{{username}}" class="d-none d-sm-block card border border-primary chat-box">
+    <div class="card-header">
+        <div class="d-flex align-items-center">
+            <div class="mr"><img src="./assets/images/netcore.png" alt="" class="rounded-circle img-person"></div>
+            <div>
+                <a class="text-primary" style="text-decoration: none;">{{username}}</a>
+                <div class="text-muted">active</div>
+            </div>
+            <div class="child-right">
+                <a class="mr btn"><fa-icon [icon]="faMinus"></fa-icon></a>
+                <a class="mr" (click)="closeBoxChat()">
+                    <fa-icon [icon]="faClose"></fa-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="collapseChatBox">
+        <div class="card-body" >
+            <ul #scrollMe class="chat chat-frame" style="height: 350px;">
+                <li *ngIf="loading" class="text-center"><span class="fa fa-spinner fa-spin loader" style="font-size: 30px;"></span></li>
+                <li class="pd-5" *ngFor="let message of (messageService.messageThread$ | async)">                
+                    <div class="d-flex" [ngClass]=" message.senderUsername === username ? 'd-flex' : 'parent-sent' ">
+                        <div class="mr" *ngIf="message.recipientUsername === currentUser">
+                            <img class="rounded-circle small-img" src="./assets/images/netcore.png" alt="">
+                        </div>
+                        <div class="message-body" [ngClass]="{'message-receive': message.senderUsername === username}">                        
+                            <div>{{message.content}}</div>
+                        </div>                       
+                    </div>
+                </li>               
+            </ul>
+        </div>
+        <div class="card-footer">
+            <form #messageForm="ngForm" (ngSubmit)="sendMessage()" autocomplete="off">
+                <div class="input-group">
+                    <input type="text" name="messageContent" required [(ngModel)]="messageContent"
+                        class="form-control input-sm" placeholder="Send a private message">
+                    <div class="input-group-append">
+                        <button [disabled]="!messageForm.valid" class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

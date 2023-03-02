@@ -1,0 +1,7 @@
+.friend-list{
+    position: fixed;
+    max-width: 450px;
+    right: 1px;
+    bottom: 1px;
+    z-index: 222;
+}

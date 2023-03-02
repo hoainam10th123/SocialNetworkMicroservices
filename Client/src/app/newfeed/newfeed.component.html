@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <button class="btn btn-success" (click)="addPost()">Add post</button>
+                </li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+
+        <div class="col-md-8">            
+            <div class="card mt-2" *ngFor="let item of posts">
+                <div class="card-header d-flex align-items-center">
+                    <div class="mr" style="position: relative;">
+                        <img height="50" src="{{item.userPhotoUrl || './assets/images/user.png'}}" alt=""
+                            class="rounded-circle">
+                        <span class="online lb-pos"><i class="fa fa-circle"></i></span>
+                    </div>
+
+                    <div>
+                        <a class="text-primary" style="text-decoration: none;"
+                            routerLink="/detail/hoainam10th">{{item.username}}</a>
+                        <div class="text-muted">{{item.createdDate | date:'short'}}</div>
+                    </div>
+
+                    <div class="child-right">
+                        <a class="mr"><fa-icon [icon]="faEdit"></fa-icon></a>
+                        <a (click)="deletePost(item.id)" class="mr" style="color: red;">
+                            <fa-icon [icon]="faTrash"></fa-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <p>{{item.noiDung}}</p>
+                </div>
+                <div class="card-footer">
+                    <form #cmtForm="ngForm">
+                        <div class="mb-3">
+                            <input name="noiDung" [(ngModel)]="noiDung" type="text" class="form-control"
+                                placeholder="name@example.com" required (keyup.enter)="onSubmit(cmtForm, item.id, item.username)">
+                        </div>
+                    </form>
+
+                    <ul>
+                        <li *ngFor="let cmt of item.comments">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <img height="40" src="{{cmt.userPhotoUrl || './assets/images/user.png'}}" alt="">
+                                </div>
+                                <div>
+                                    <div style="color: blue;">{{cmt.username}}</div>
+                                    <div>{{cmt.noiDung}}</div>
+                                </div>
+                                <div class="child-right">
+                                    <a class="mr"><fa-icon [icon]="faEdit"></fa-icon></a>
+                                    <a (click)="deleteComment(cmt.id)" class="mr" style="color: red;">
+                                        <fa-icon [icon]="faTrash"></fa-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div style="position: relative;" class="d-none d-sm-block"> 
+    <app-friend-list *ngIf="(accountService.currentUser$ | async)"></app-friend-list>
+</div>

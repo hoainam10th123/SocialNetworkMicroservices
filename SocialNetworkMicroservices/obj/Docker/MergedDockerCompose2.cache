@@ -1,0 +1,298 @@
+name: dockercompose96905418375006002
+services:
+  chat.api:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/Chat/Chat.Api/Dockerfile
+    container_name: chat.api
+    depends_on:
+      chatdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:DefaultConnection: Server=chatdb;Port=5432;Database=ChatDb;User
+        Id=admin;Password=admin1234;
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+      IdentityServer:BaseUrl: http://identityserver
+    image: chatapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5005"
+      protocol: tcp
+  chatdb:
+    container_name: chatdb
+    environment:
+      POSTGRES_DB: ChatDb
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+  identityserver:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/IdentityServer/IdentityServer/Dockerfile
+    container_name: identityserver
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      GrpcSettings:UserUrl: http://user.grpc
+    image: identityserver
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5077"
+      protocol: tcp
+  notification.api:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/Notification/Notification.Api/Dockerfile
+    container_name: notification.api
+    depends_on:
+      identityserver:
+        condition: service_started
+      notificationdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:DefaultConnection: server=notificationdb;Port=3306;Database=NotiDb;Uid=root;Pwd=hoainam10th;
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+      IdentityServer:BaseUrl: http://identityserver
+    image: notificationapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5006"
+      protocol: tcp
+  notificationdb:
+    container_name: notificationdb
+    environment:
+      MYSQL_DATABASE: NotiDb
+      MYSQL_ROOT_PASSWORD: hoainam10th
+    image: mysql
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: "3306"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: mysql_data
+      target: /var/lib/mysql
+      volume: {}
+  ocelotapigw:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: ApiGateways/OcelotApiGw/Dockerfile
+    container_name: ocelotapigw
+    depends_on:
+      chat.api:
+        condition: service_started
+      notification.api:
+        condition: service_started
+      post.api:
+        condition: service_started
+      user.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ocelotapigw
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5065"
+      protocol: tcp
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: hoainam10th@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: admin1234
+    image: dpage/pgadmin4
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8000"
+      protocol: tcp
+    - mode: ingress
+      target: 9000
+      published: "9000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /var/run/docker.sock
+      bind:
+        create_host_path: true
+    - type: volume
+      source: portainer_data
+      target: /data
+      volume: {}
+  post.api:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/Post/Post.Api/Dockerfile
+    container_name: post.api
+    depends_on:
+      identityserver:
+        condition: service_started
+      postdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:DefaultConnection: Server=postdb;Database=PostDb;User Id=sa;Password=SwN12345678;
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+      GrpcSettings:UserUrl: http://user.grpc
+      IdentityServer:BaseUrl: http://identityserver
+    image: postapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5003"
+      protocol: tcp
+  postdb:
+    container_name: postdb
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
+  user.api:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/User/User.Api/Dockerfile
+    container_name: user.api
+    depends_on:
+      identityserver:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      GrpcSettings:UserUrl: http://user.grpc
+      IdentityServer:BaseUrl: http://identityserver
+    image: userapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5001"
+      protocol: tcp
+  user.grpc:
+    build:
+      context: D:\Nam\angular\SocialNetworkMicroservices
+      dockerfile: Services/User/User.Grpc/Dockerfile
+    container_name: user.grpc
+    depends_on:
+      userdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      UserStoreDatabase:ConnectionString: mongodb://userdb:27017
+    image: usergrpc
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5002"
+      protocol: tcp
+  userdb:
+    container_name: userdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: mongo_data
+      target: /data/db
+      volume: {}
+networks:
+  default:
+    name: dockercompose96905418375006002_default
+volumes:
+  mongo_data:
+    name: dockercompose96905418375006002_mongo_data
+  mysql_data:
+    name: dockercompose96905418375006002_mysql_data
+  pgadmin_data:
+    name: dockercompose96905418375006002_pgadmin_data
+  portainer_data:
+    name: dockercompose96905418375006002_portainer_data
+  postgres_data:
+    name: dockercompose96905418375006002_postgres_data

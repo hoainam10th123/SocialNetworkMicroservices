@@ -1,0 +1,79 @@
+version: '3.4'
+
+services:
+
+  portainer:
+    image: portainer/portainer-ce
+
+  pgadmin:
+    image: dpage/pgadmin4
+
+  userdb:
+    image: mongo
+
+  postdb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+  notificationdb:
+    image: mysql
+
+  chatdb:
+    image: postgres
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
+  user.grpc:
+    image: ${DOCKER_REGISTRY-}usergrpc
+    build:
+      context: .
+      dockerfile: Services/User/User.Grpc/Dockerfile
+
+
+  user.api:
+    image: ${DOCKER_REGISTRY-}userapi
+    build:
+      context: .
+      dockerfile: Services/User/User.Api/Dockerfile
+
+  identityserver:
+    image: ${DOCKER_REGISTRY-}identityserver
+    build:
+      context: .
+      dockerfile: Services/IdentityServer/IdentityServer/Dockerfile
+
+  post.api:
+    image: ${DOCKER_REGISTRY-}postapi
+    build:
+      context: .
+      dockerfile: Services/Post/Post.Api/Dockerfile
+
+  notification.api:
+    image: ${DOCKER_REGISTRY-}notificationapi
+    build:
+      context: .
+      dockerfile: Services/Notification/Notification.Api/Dockerfile
+
+  chat.api:
+    image: ${DOCKER_REGISTRY-}chatapi
+    build:
+      context: .
+      dockerfile: Services/Chat/Chat.Api/Dockerfile
+
+  ocelotapigw:
+    image: ${DOCKER_REGISTRY-}ocelotapigw
+    build:
+      context: .
+      dockerfile: ApiGateways/OcelotApiGw/Dockerfile
+
+volumes:
+  mongo_data:
+  portainer_data:
+  mysql_data:
+  postgres_data:
+  pgadmin_data:
+
+
+
+
+

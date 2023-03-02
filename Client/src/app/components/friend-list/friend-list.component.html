@@ -1,0 +1,16 @@
+
+
+<div class="friend-list">
+  <ul class="list-group">
+    <li class="list-group-item active" aria-current="true">{{(presence.onlineUsers$ | async).length}}</li>
+    <li (click)="selectUser(item)" class="list-group-item" *ngFor="let item of (presence.onlineUsers$ | async)">{{item}}</li>
+  </ul>
+</div>
+
+<div>
+  <app-chat-box *ngFor="let item of chatBoxUsers" 
+    [right]="item.right" 
+    [username]="item.user" 
+    (removeChatBox)="removeChatBox($event)">    
+  </app-chat-box>
+</div>

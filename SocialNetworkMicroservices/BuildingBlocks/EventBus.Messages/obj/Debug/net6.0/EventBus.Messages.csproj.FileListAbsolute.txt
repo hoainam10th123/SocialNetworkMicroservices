@@ -1,0 +1,12 @@
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.deps.json
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.dll
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.pdb
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfoInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfo.cs
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+D:\Nam\angular\SocialNetworkMicroservices\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll

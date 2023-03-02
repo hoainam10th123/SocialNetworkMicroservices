@@ -1,0 +1,3 @@
+obj\Debug\net6.0\Protos/User.cs \
+obj\Debug\net6.0\Protos/UserGrpc.cs: C:/Users/hoain/.nuget/packages/grpc.tools/2.40.0/build/native/include/google/protobuf/empty.proto\
+ Protos/user.proto

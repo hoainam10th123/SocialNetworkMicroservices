@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\css\\site.scss",
+      "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\icon.jpg",
+      "PackagePath": "staticwebassets\\icon.jpg"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\icon.png",
+      "PackagePath": "staticwebassets\\icon.png"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\js\\signin-redirect.js",
+      "PackagePath": "staticwebassets\\js\\signin-redirect.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\js\\signout-redirect.js",
+      "PackagePath": "staticwebassets\\js\\signout-redirect.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\README.md"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery\\README.md"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\IdentityServer\\IdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.IdentityServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.IdentityServer.props",
+      "PackagePath": "build\\IdentityServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.IdentityServer.props",
+      "PackagePath": "buildMultiTargeting\\IdentityServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.IdentityServer.props",
+      "PackagePath": "buildTransitive\\IdentityServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

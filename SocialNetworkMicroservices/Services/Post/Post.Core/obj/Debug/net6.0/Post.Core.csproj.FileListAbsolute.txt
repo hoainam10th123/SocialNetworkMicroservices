@@ -1,0 +1,12 @@
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\bin\Debug\net6.0\Post.Core.deps.json
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\bin\Debug\net6.0\Post.Core.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\bin\Debug\net6.0\Post.Core.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.csproj.AssemblyReference.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.AssemblyInfoInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.AssemblyInfo.cs
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.csproj.CoreCompileInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\refint\Post.Core.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\Post.Core.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Core\obj\Debug\net6.0\ref\Post.Core.dll

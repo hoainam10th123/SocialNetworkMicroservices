@@ -1,0 +1,158 @@
+version: '3.4'
+
+services:
+
+# GUI manage Docker, Swarm, Kubernetes and ACI environments http://localhost:9000
+  portainer:
+    container_name: portainer
+    restart: always
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+# pgadmin GUI quan ly PostgreSQL
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=hoainam10th@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=admin1234
+    restart: always
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/root/.pgadmin
+
+  # UI: http://localhost:15672
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+       - "5672:5672"
+       - "15672:15672"
+
+  userdb:
+    container_name: userdb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  postdb:
+    container_name: postdb
+    environment:
+      MSSQL_SA_PASSWORD: "SwN12345678"
+      ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+      - "1433:1433"
+
+  notificationdb:
+    container_name: notificationdb
+    environment:
+      MYSQL_ROOT_PASSWORD: hoainam10th
+      MYSQL_DATABASE: NotiDb
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  chatdb:
+    container_name: chatdb
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin1234
+      - POSTGRES_DB=ChatDb
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  user.grpc:
+    container_name: user.grpc
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "UserStoreDatabase:ConnectionString=mongodb://userdb:27017"
+    depends_on:
+      - userdb
+    ports:
+      - "5002:80"
+
+  user.api:
+    container_name: user.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "GrpcSettings:UserUrl=http://user.grpc"
+      - "IdentityServer:BaseUrl=http://identityserver"    
+    ports:
+      - "5001:80"
+
+
+  identityserver:
+    container_name: identityserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "GrpcSettings:UserUrl=http://user.grpc"
+    ports:
+      - "5077:80"
+
+  post.api:
+    container_name: post.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=postdb;Database=PostDb;User Id=sa;Password=SwN12345678;"
+      - "GrpcSettings:UserUrl=http://user.grpc"
+      - "IdentityServer:BaseUrl=http://identityserver"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:
+      - postdb
+      - rabbitmq
+    ports:
+      - "5003:80"
+
+
+  notification.api:
+    container_name: notification.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=server=notificationdb;Port=3306;Database=NotiDb;Uid=root;Pwd=hoainam10th;"
+      - "IdentityServer:BaseUrl=http://identityserver"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:
+      - notificationdb
+      - rabbitmq
+    ports:
+      - "5006:80"
+
+
+  chat.api:
+    container_name: chat.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=chatdb;Port=5432;Database=ChatDb;User Id=admin;Password=admin1234;"
+      - "IdentityServer:BaseUrl=http://identityserver"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:
+      - chatdb
+      - rabbitmq
+    ports:
+      - "5005:80"
+
+
+  ocelotapigw:
+    container_name: ocelotapigw
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - user.api
+      - post.api
+      - notification.api
+      - chat.api
+    ports:
+      - "5065:80"
+

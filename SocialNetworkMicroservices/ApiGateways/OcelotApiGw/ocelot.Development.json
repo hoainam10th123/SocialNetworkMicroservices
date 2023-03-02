@@ -1,0 +1,149 @@
+{
+  //https://ocelot.readthedocs.io/en/latest/introduction/gettingstarted.html
+  "Routes": [
+    //User API
+    {
+      "DownstreamPathTemplate": "/api/User",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "user.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/User",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    //Post API
+    {
+      "DownstreamPathTemplate": "/api/Posts",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "post.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Posts",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "post.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Posts/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Comments",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "post.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Comments",
+      "UpstreamHttpMethod": [ "POST" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Comments/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "post.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Comments/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    // Notification API
+    {
+      "DownstreamPathTemplate": "/api/Notification",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "notification.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Notification",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+    //Chat API
+    {
+      "DownstreamPathTemplate": "/api/Messages",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "chat.api",
+          "Port": "80"
+        }
+      ],
+      "UpstreamPathTemplate": "/Messages",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    // socket
+    {
+      "DownstreamPathTemplate": "/hubs",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "chat.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/hubs",
+      "QoSOptions": {
+        "TimeoutValue": 320000
+      },
+      "Priority": 50
+    },
+    {
+      "DownstreamPathTemplate": "/hubs/{path}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "chat.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/hubs/{path}",
+      "QoSOptions": {
+        "TimeoutValue": 320000
+      },
+      "Priority": 50
+    }
+  ],
+  "GlobalConfiguration": {
+    // url of project OcelotApiGW
+    "BaseUrl": "http://localhost:5065"
+  }
+}

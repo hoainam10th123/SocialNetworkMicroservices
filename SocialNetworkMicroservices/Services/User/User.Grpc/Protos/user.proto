@@ -1,0 +1,44 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option csharp_namespace = "User.Grpc.Protos";
+
+service UserProtoService {
+  rpc AddUser (UserRequest) returns (google.protobuf.Empty);
+  rpc Login (LoginRequest) returns (UserReply);
+  rpc FindNearest (Location) returns (UsersReply);
+  rpc GetUserByUsername(LoginRequest) returns (UserReply);
+}
+
+message UserRequest {
+  string userName = 1;
+  string password = 2;
+  double long = 3;
+  double lat = 4;
+}
+
+message UserReply {
+  string userName = 1;
+  string subjectId = 2;
+  string imageUrl = 3;
+}
+
+message LoginRequest {
+  string userName = 1;
+  string password = 2;
+}
+
+message Location {
+  double long = 1;
+  double lat = 2;
+}
+
+// tra ve 1 list user location
+message UsersReply {
+	repeated UserLocation resultUsers = 1;
+}
+
+message UserLocation {
+	string userName = 1;
+	string distance = 2;
+	string imageUrl = 3;
+}

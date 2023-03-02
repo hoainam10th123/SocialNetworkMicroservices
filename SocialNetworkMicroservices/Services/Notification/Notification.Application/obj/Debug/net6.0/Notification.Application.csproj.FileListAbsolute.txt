@@ -1,0 +1,15 @@
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.csproj.AssemblyReference.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.AssemblyInfoInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.AssemblyInfo.cs
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.csproj.CoreCompileInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\bin\Debug\net6.0\Notification.Application.deps.json
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\bin\Debug\net6.0\Notification.Application.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\bin\Debug\net6.0\Notification.Application.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\bin\Debug\net6.0\Notification.Domain.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\bin\Debug\net6.0\Notification.Domain.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.csproj.CopyComplete
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\refint\Notification.Application.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\Notification.Application.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Application\obj\Debug\net6.0\ref\Notification.Application.dll

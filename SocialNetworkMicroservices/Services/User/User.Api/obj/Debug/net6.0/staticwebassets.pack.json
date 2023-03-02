@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\images\\netcore.png",
+      "PackagePath": "staticwebassets\\images\\netcore.png"
+    },
+    {
+      "Id": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.User.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.User.Api.props",
+      "PackagePath": "build\\User.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.User.Api.props",
+      "PackagePath": "buildMultiTargeting\\User.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.User.Api.props",
+      "PackagePath": "buildTransitive\\User.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

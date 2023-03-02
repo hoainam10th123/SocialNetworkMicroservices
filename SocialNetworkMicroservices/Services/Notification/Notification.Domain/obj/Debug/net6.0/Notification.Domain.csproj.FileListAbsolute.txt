@@ -1,0 +1,12 @@
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\bin\Debug\net6.0\Notification.Domain.deps.json
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\bin\Debug\net6.0\Notification.Domain.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\bin\Debug\net6.0\Notification.Domain.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.csproj.AssemblyReference.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.AssemblyInfoInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.AssemblyInfo.cs
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.csproj.CoreCompileInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\refint\Notification.Domain.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\Notification.Domain.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Notification\Notification.Domain\obj\Debug\net6.0\ref\Notification.Domain.dll

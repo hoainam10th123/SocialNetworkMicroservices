@@ -1,0 +1,15 @@
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\bin\Debug\net6.0\Post.Infrastructure.deps.json
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\bin\Debug\net6.0\Post.Infrastructure.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\bin\Debug\net6.0\Post.Infrastructure.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\bin\Debug\net6.0\Post.Core.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\bin\Debug\net6.0\Post.Core.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.csproj.AssemblyReference.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.AssemblyInfoInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.AssemblyInfo.cs
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.csproj.CopyComplete
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\refint\Post.Infrastructure.dll
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\Post.Infrastructure.pdb
+D:\Nam\angular\SocialNetworkMicroservices\Services\Post\Post.Infrastructure\obj\Debug\net6.0\ref\Post.Infrastructure.dll

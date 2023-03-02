@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "o1glVW0C1qGhht8aP6E20QNMmKiuPrw3oFoTgOEArhk=",
+  "Source": "User.Api",
+  "BasePath": "_content/User.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "User.Api\\wwwroot",
+      "Source": "User.Api",
+      "ContentRoot": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\",
+      "BasePath": "_content/User.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\images\\netcore.png",
+      "SourceId": "User.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\",
+      "BasePath": "_content/User.Api",
+      "RelativePath": "images/netcore.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\netcore.png"
+    },
+    {
+      "Identity": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\images\\user.png",
+      "SourceId": "User.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nam\\angular\\SocialNetworkMicroservices\\Services\\User\\User.Api\\wwwroot\\",
+      "BasePath": "_content/User.Api",
+      "RelativePath": "images/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user.png"
+    }
+  ]
+}
