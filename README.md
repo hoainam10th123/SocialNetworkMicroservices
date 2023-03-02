@@ -1,5 +1,5 @@
 # SocialNetworkMicroservices
-
+# tài khoản đăng nhập xem trong User.Grpc\Data
 ### Demo: https://youtu.be/kJbDd4T9JhM
 
 # Cách chạy. Mở power shell (hoặc chuột phải vào file docker compose mở với power shell trong Visual Studio) chỉ tới đường dẫn file docker compose nhập lệnh sau:
